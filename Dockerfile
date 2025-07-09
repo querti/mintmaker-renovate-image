@@ -47,35 +47,35 @@ ARG NODEJS_VERSION=20.17.0
 ARG PNPM_VERSION=10.9.0
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=pipx versioning=pep440
+# renovate python: datasource=pypi depName=pipx
 ARG PIPX_VERSION=1.7.0
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=poetry versioning=pep440
+# renovate python: datasource=pypi depName=poetry
 ARG POETRY_VERSION=2.1.2
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=pdm versioning=pep440
+# renovate python: datasource=pypi depName=pdm
 ARG PDM_VERSION=2.25.3
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=pipenv versioning=pep440
+# renovate python: datasource=pypi depName=pipenv
 ARG PIPENV_VERSION=2025.0.3
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=hashin versioning=pep440
+# renovate python: datasource=pypi depName=hashin
 ARG HASHIN_VERSION=1.0.4
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=uv versioning=pep440
+# renovate python: datasource=pypi depName=uv
 ARG UV_VERSION=0.7.18
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=hatch versioning=pep440
+# renovate python: datasource=pypi depName=hatch
 ARG HATCH_VERSION=1.14.0
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=pip-tools versioning=pep440
+# renovate python: datasource=pypi depName=pip-tools
 ARG PIP_TOOLS_VERSION=7.4.0
 
 # Support multiple Go versions
