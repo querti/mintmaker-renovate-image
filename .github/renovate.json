@@ -14,30 +14,6 @@
   ],
   "customManagers": [
     {
-        "fileMatch": [
-            "^Dockerfile$"
-        ],
-        "customType": "regex",
-        "datasourceTemplate": "github-tags",
-        "depNameTemplate": "konflux-ci/rpm-lockfile-prototype",
-        "matchStrings": [
-            "ARG RPM_LOCKFILE_PROTOTYPE_VERSION=(?<currentValue>[\\d\\.]+)"
-        ],
-        "versioningTemplate": "semver"
-    },
-    {
-        "fileMatch": [
-            "^Dockerfile$"
-        ],
-        "customType": "regex",
-        "datasourceTemplate": "github-tags",
-        "depNameTemplate": "konflux-ci/pipeline-migration-tool",
-        "matchStrings": [
-            "ARG PIPELINE_MIGRATION_TOOL_VERSION=(?<currentValue>[\\d\\.]+)"
-        ],
-        "versioningTemplate": "semver"
-    },
-    {
         "customType": "regex",
         "fileMatch": [
             "^Dockerfile$"
@@ -53,46 +29,10 @@
             "^Dockerfile$"
         ],
         "customType": "regex",
-        "datasourceTemplate": "github-tags",
-        "depNameTemplate": "tektoncd/cli",
+        "description": "Update dependency versions in the Dockerfile",
         "matchStrings": [
-            "ARG TEKTON_CLI_VERSION=(?<currentValue>[\\d\\.]+)"
-        ],
-        "versioningTemplate": "semver"
-    },
-    {
-        "fileMatch": [
-            "^Dockerfile$"
-        ],
-        "customType": "regex",
-        "datasourceTemplate": "github-tags",
-        "depNameTemplate": "mikefarah/yq",
-        "matchStrings": [
-            "ARG YQ_VERSION=(?<currentValue>[\\d\\.]+)"
-        ],
-        "versioningTemplate": "semver"
-    },
-    {
-        "fileMatch": [
-            "^Dockerfile$"
-        ],
-        "customType": "regex",
-        "description": "Update Python dependency versions in Dockerfiles",
-        "matchStrings": [
-            "# renovate python: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\s(?:ENV|ARG) .+?_VERSION=(?<currentValue>.+?)\\s"
+            "# renovate : datasource=(?<datasource>[a-z-]+?) depName=(?<depName>.+?)(?: versioning=(?<versioning>[a-z-]+?))?\\s(?:ENV|ARG) .+?_VERSION=(?<currentValue>.+?)\\s"
         ]
-    },
-    {
-        "fileMatch": [
-            "^Dockerfile$"
-        ],
-        "customType": "regex",
-        "datasourceTemplate": "npm",
-        "depNameTemplate": "pnpm",
-        "matchStrings": [
-            "ARG PNPM_VERSION=(?<currentValue>[\\d\\.]+)"
-        ],
-        "versioningTemplate": "npm"
     }
   ]
 }
