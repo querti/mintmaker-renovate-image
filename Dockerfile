@@ -44,7 +44,7 @@ ARG NODEJS_VERSION=20.17.0
 
 # Version for pnpm from
 # https://www.npmjs.com/package/pnpm
-ARG PNPM_VERSION=10.9.0
+ARG PNPM_VERSION=10.12.4
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=pipx
