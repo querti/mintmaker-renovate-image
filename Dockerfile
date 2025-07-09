@@ -24,58 +24,66 @@ ARG RENOVATE_REVISION=3ae29357271f532d100ef422b889c8be9ff81b05
 
 # Version for the rpm-lockfile-prototype executable from
 # https://github.com/konflux-ci/rpm-lockfile-prototype/tags
+# Do not remove the following line, renovate uses it to propose version updates
+# renovate: datasource=github-tags depName=konflux-ci/rpm-lockfile-prototype versioning=semver
 ARG RPM_LOCKFILE_PROTOTYPE_VERSION=0.16.0
 
 # Version for the pipeline-migration-tool from
 # https://github.com/konflux-ci/pipeline-migration-tool/tags
+# Do not remove the following line, renovate uses it to propose version updates
+# renovate: datasource=github-tags depName=konflux-ci/pipeline-migration-tool versioning=semver
 ARG PIPELINE_MIGRATION_TOOL_VERSION=0.3.0
 
 # Version for the tekton cli from
 # https://github.com/tektoncd/cli/tags
+# Do not remove the following line, renovate uses it to propose version updates
+# renovate: datasource=github-tags depName=tektoncd/cli versioning=semver
 ARG TEKTON_CLI_VERSION=0.38.1
 
 # Version for the yq from
 # https://github.com/mikefarah/yq/tags
+# Do not remove the following line, renovate uses it to propose version updates
+# renovate: datasource=github-tags depName=mikefarah/yq versioning=semver
 ARG YQ_VERSION=4.45.1
 
 # NodeJS version used for Renovate, has to satisfy the version
 # specified in Renovate's package.json
 ARG NODEJS_VERSION=20.17.0
 
-# Version for pnpm from
-# https://www.npmjs.com/package/pnpm
+# Do not remove the following line, renovate uses it to propose version updates
+# renovate: datasource=npm depName=pnpm versioning=npm
 ARG PNPM_VERSION=10.9.0
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=pipx
+# renovate: datasource=pypi depName=pipx
 ARG PIPX_VERSION=1.7.0
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=poetry
+# renovate: datasource=pypi depName=poetry
 ARG POETRY_VERSION=2.1.2
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=pdm
+# renovate: datasource=pypi depName=pdm
 ARG PDM_VERSION=2.25.3
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=pipenv
+# renovate: datasource=pypi depName=pipenv
 ARG PIPENV_VERSION=2025.0.3
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=hashin
+# renovate: datasource=pypi depName=hashin
 ARG HASHIN_VERSION=1.0.4
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=uv
+# renovate: datasource=pypi depName=uv
 ARG UV_VERSION=0.7.18
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=hatch
+# renovate: datasource=pypi depName=hatch
 ARG HATCH_VERSION=1.14.0
 
 # Do not remove the following line, renovate uses it to propose version updates
-# renovate python: datasource=pypi depName=pip-tools
+# renovate: datasource=pypi depName=pip-tools
 ARG PIP_TOOLS_VERSION=7.4.0
 
 # Support multiple Go versions
