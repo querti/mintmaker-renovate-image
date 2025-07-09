@@ -32,7 +32,7 @@ ARG PIPELINE_MIGRATION_TOOL_VERSION=0.3.0
 
 # Version for the tekton cli from
 # https://github.com/tektoncd/cli/tags
-ARG TEKTON_CLI_VERSION=0.38.1
+ARG TEKTON_CLI_VERSION=0.41.0
 
 # Version for the yq from
 # https://github.com/mikefarah/yq/tags
