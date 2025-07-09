@@ -60,7 +60,7 @@ ARG PDM_VERSION=2.25.3
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=pipenv
-ARG PIPENV_VERSION=2025.0.3
+ARG PIPENV_VERSION=2025.0.4
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=hashin
