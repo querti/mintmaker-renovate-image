@@ -20,7 +20,7 @@ COPY LICENSE /licenses/LICENSE
 ARG RENOVATE_VERSION=39.264.0-rpm
 
 # Specific git commit hash from the redhat-exd-rebuilds/renovate fork
-ARG RENOVATE_REVISION=3ae29357271f532d100ef422b889c8be9ff81b05
+ARG RENOVATE_REVISION=89ef1a49b5689e2fd16b5844c220de5dea9cf583
 
 # Version for the rpm-lockfile-prototype executable from
 # https://github.com/konflux-ci/rpm-lockfile-prototype/tags
@@ -32,11 +32,11 @@ ARG PIPELINE_MIGRATION_TOOL_VERSION=0.3.0
 
 # Version for the tekton cli from
 # https://github.com/tektoncd/cli/tags
-ARG TEKTON_CLI_VERSION=0.38.1
+ARG TEKTON_CLI_VERSION=0.41.0
 
 # Version for the yq from
 # https://github.com/mikefarah/yq/tags
-ARG YQ_VERSION=4.45.1
+ARG YQ_VERSION=4.45.4
 
 # NodeJS version used for Renovate, has to satisfy the version
 # specified in Renovate's package.json
@@ -44,39 +44,39 @@ ARG NODEJS_VERSION=20.17.0
 
 # Version for pnpm from
 # https://www.npmjs.com/package/pnpm
-ARG PNPM_VERSION=10.9.0
+ARG PNPM_VERSION=10.12.4
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=pipx
-ARG PIPX_VERSION=1.7.0
+ARG PIPX_VERSION=1.7.1
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=poetry
-ARG POETRY_VERSION=2.1.2
+ARG POETRY_VERSION=2.1.3
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=pdm
-ARG PDM_VERSION=2.25.3
+ARG PDM_VERSION=2.25.4
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=pipenv
-ARG PIPENV_VERSION=2025.0.3
+ARG PIPENV_VERSION=2025.0.4
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=hashin
-ARG HASHIN_VERSION=1.0.4
+ARG HASHIN_VERSION=1.0.5
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=uv
-ARG UV_VERSION=0.7.18
+ARG UV_VERSION=0.7.19
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=hatch
-ARG HATCH_VERSION=1.14.0
+ARG HATCH_VERSION=1.14.1
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=pip-tools
-ARG PIP_TOOLS_VERSION=7.4.0
+ARG PIP_TOOLS_VERSION=7.4.1
 
 # Support multiple Go versions
 ENV GOTOOLCHAIN=auto
