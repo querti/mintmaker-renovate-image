@@ -5,6 +5,12 @@
     "automerge": true,
     "platformAutomerge": true
   },
+  "packageRules": [
+    {
+      "matchCategories": ["python"],
+      "groupName": "All Python Dependencies"
+    }
+  ],
   "customManagers": [
     {
         "fileMatch": [
