@@ -9,7 +9,7 @@
     {
       "matchManagers": ["regex"],
       "matchDatasources": ["pypi"],
-      "groupName": "All Dependencies"
+      "groupName": "All Python Dependencies"
     }
   ],
   "customManagers": [
