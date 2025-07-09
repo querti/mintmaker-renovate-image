@@ -7,8 +7,8 @@
   },
   "packageRules": [
     {
-      "matchCategories": ["python"],
-      "groupName": "All Python Dependencies"
+      "matchManagers": ["regex"],
+      "groupName": "All Dependencies"
     }
   ],
   "customManagers": [
