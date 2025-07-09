@@ -8,6 +8,7 @@
   "packageRules": [
     {
       "matchManagers": ["regex"],
+      "matchDatasources": ["pypi"],
       "groupName": "All Dependencies"
     }
   ],
