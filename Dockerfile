@@ -36,7 +36,7 @@ ARG TEKTON_CLI_VERSION=0.38.1
 
 # Version for the yq from
 # https://github.com/mikefarah/yq/tags
-ARG YQ_VERSION=4.45.1
+ARG YQ_VERSION=4.45.4
 
 # NodeJS version used for Renovate, has to satisfy the version
 # specified in Renovate's package.json
