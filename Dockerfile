@@ -68,7 +68,7 @@ ARG HASHIN_VERSION=1.0.4
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=uv
-ARG UV_VERSION=0.7.18
+ARG UV_VERSION=0.7.19
 
 # Do not remove the following line, renovate uses it to propose version updates
 # renovate python: datasource=pypi depName=hatch
